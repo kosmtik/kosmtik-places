@@ -1,0 +1,19 @@
+.map-places {
+    right: calc((100% - 60px) / 2);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    display: none;
+    border-right: 1px solid #aaa;
+}
+.map-places-on .map-places {
+    display: block;
+}
+.one-place {
+    cursor: pointer;
+    padding: 10px;
+}
+.one-place + .one-place {
+    border-top: 1px solid #999;
+}
